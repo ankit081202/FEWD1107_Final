@@ -3,34 +3,42 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
 body {
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande",
 		sans-serif;
 	font-weight: 300;
 }
+
 h1{
 	margin-left: 42vw;
 	margin-bottom: 10px;
 }
+
 ul{
 	display: flex;
 	justify-content: center;
 }
+
 li{
 	margin: 0 40px;
 }
+
 a {
 	text-decoration: none;
 	color: inherit;
 }
+
 img {
 	width: 100%;
 	display: block;
 }
+
 label,
 input[type="submit"] {
 	display: block;
 }
+
 .navigation,.logo,.about,.features,.feedback,.footer{
 	margin: 10px;
 	padding: 10px;
@@ -39,6 +47,7 @@ input[type="submit"] {
 	border: 3px solid rgb(207, 38, 74);
 	background-color: rgb(255, 46, 98);
 }
+
 nav>.navigation , header>.logo, article>.about,aside>.features,section>.feedback,footer>.footer{
 	margin: 10px;
 	padding: 10px;
@@ -46,12 +55,15 @@ nav>.navigation , header>.logo, article>.about,aside>.features,section>.feedback
 	border: 3px solid green;
 	background-color: palegreen;
 }
+
 main {
 	display: flex;
 }
+
 article{
 	width: 50%;
 }
+
 aside{
 	width: 50%;
 }
